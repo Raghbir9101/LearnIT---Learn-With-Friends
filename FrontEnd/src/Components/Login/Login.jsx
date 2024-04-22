@@ -39,7 +39,7 @@ function Login() {
         localStorage.setItem("username", userName);
         localStorage.setItem("userID", res._id);
     }
-    if (loginUserName) return <Navigate to={"/subjects"} />
+    if (loginUserName) return <Navigate to={"/subject"} />
     return (
         <Container maxWidth="xs">
             <Grid
